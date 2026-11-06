@@ -1,0 +1,20 @@
+# Network files: downloaded/converted by "python3 engine.py --setup"
+*.nnue
+*.nnue.part
+sf17_ft.npy
+sf17_layers.npz
+*.tmp
+
+# Optional Syzygy tablebases
+syzygy/
+
+# Lichess bot token -- never commit this
+token.txt
+
+# Benchmark output
+results*.txt
+*.old
+spsa_*
+
+__pycache__/
+*.pyc
